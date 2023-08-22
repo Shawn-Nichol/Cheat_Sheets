@@ -1,77 +1,54 @@
-To make the Nmap examples stand out and look visually appealing on GitHub, you can use Markdown syntax to format the text. Markdown is a lightweight markup language that GitHub supports for easy text formatting. Here's how you can style the examples:
+1. **Basic Scan** - Discover live hosts within a target network.
+   ```bash
+   nmap 192.168.1.0/24
+   ```
 
-```markdown
-## Nmap Scan Examples
+2. **Port Scan** - Specify ports to scan on target hosts.
+   ```bash
+   nmap -p 80,443 192.168.1.1
+   ```
 
-Nmap (Network Mapper) is a powerful open-source network scanning tool used for discovering hosts and services on a computer network. It offers various scan techniques and options that can be controlled using command-line tags. Here are some common Nmap tags along with example usage:
+3. **Aggressive Scan** - Comprehensive scan with OS detection, version detection, script scanning, and traceroute.
+   ```bash
+   nmap -A 192.168.1.1
+   ```
 
-### Basic Scan
-Discover live hosts within a target network.
-```bash
-nmap 192.168.1.0/24
-```
+4. **Operating System Detection** - Determine the OS running on target hosts.
+   ```bash
+   nmap -O 192.168.1.1
+   ```
 
-### Port Scan
-Specify ports to scan on target hosts.
-```bash
-nmap -p 80,443 192.168.1.1
-```
+5. **Service Version Detection** - Detect versions of services on open ports.
+   ```bash
+   nmap -sV 192.168.1.1
+   ```
 
-### Aggressive Scan
-Comprehensive scan with OS detection, version detection, script scanning, and traceroute.
-```bash
-nmap -A 192.168.1.1
-```
+6. **UDP Port Scan** - Perform UDP scan on target hosts.
+   ```bash
+   nmap -sU 192.168.1.1
+   ```
 
-### Operating System Detection
-Determine the OS running on target hosts.
-```bash
-nmap -O 192.168.1.1
-```
+7. **Ping Scan (Host Discovery)** - Determine live hosts using ICMP echo requests.
+   ```bash
+   nmap -sn 192.168.1.0/24
+   ```
 
-### Service Version Detection
-Detect versions of services on open ports.
-```bash
-nmap -sV 192.168.1.1
-```
+8. **Script Scan** - Run Nmap scripts against target hosts for more information.
+   ```bash
+   nmap -sC 192.168.1.1
+   ```
 
-### UDP Port Scan
-Perform UDP scan on target hosts.
-```bash
-nmap -sU 192.168.1.1
-```
+9. **Timing Templates** - Adjust scan speed using predefined timing templates.
+   ```bash
+   nmap -T4 192.168.1.1
+   ```
 
-### Ping Scan (Host Discovery)
-Determine live hosts using ICMP echo requests.
-```bash
-nmap -sn 192.168.1.0/24
-```
+10. **Output Formats** - Specify the output format of scan results.
+    ```bash
+    nmap -oN scan_results.txt 192.168.1.1
+    ```
 
-### Script Scan
-Run Nmap scripts against target hosts for more information.
-```bash
-nmap -sC 192.168.1.1
-```
-
-### Timing Templates
-Adjust scan speed using predefined timing templates.
-```bash
-nmap -T4 192.168.1.1
-```
-
-### Output Formats
-Specify the output format of scan results.
-```bash
-nmap -oN scan_results.txt 192.168.1.1
-```
-
-### Exclude Hosts
-Exclude specific hosts from the scan.
-```bash
-nmap 192.168.1.0/24 --exclude 192.168.1.10
-```
-
-Remember to use Nmap responsibly and with proper authorization. Unethical or illegal use of network scanning tools can have serious consequences.
-```
-
-Simply copy and paste this Markdown code into your GitHub repository's README.md file, and it will format the examples with headers, code blocks, and explanations. You can further customize the styling using other Markdown features such as bold text, links, and images as needed.
+11. **Exclude Hosts** - Exclude specific hosts from the scan.
+    ```bash
+    nmap 192.168.1.0/24 --exclude 192.168.1.10
+    ```
