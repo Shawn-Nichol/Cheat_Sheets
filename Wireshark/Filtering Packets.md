@@ -1,39 +1,41 @@
 ## Finding Packets
 
-Wireshark can find packets by content. Use the "Edit --> Find Packet" menu to search for specific events of interest. You can search by display filters, hex values, strings, or regex patterns.
+Wireshark offers several methods to find packets of interest:
+
+- **Edit --> Find Packet:** Use this menu option to search for specific events, packets, or data patterns. You can search by display filters, hex values, strings, or regular expressions.
 
 ## Marking Packets
 
-Mark packets to point to specific events of interest for further investigation. Marked packets are shown in black, regardless of the original color.
+Marking packets can be a valuable technique for highlighting specific events during analysis. Marked packets are displayed in black, making them easily distinguishable from other packets.
 
 ## Packet Comments
 
-Add comments to packets to aid in further investigation or to highlight important/suspicious points for analysis.
+Adding comments to packets can enhance your investigative process. Use comments to annotate important or suspicious points, helping you keep track of notable findings during your analysis.
 
 ## Severity Chart
 
-Wireshark uses different colors to indicate severity levels:
-- Blue: Information on usual workflow.
-- Cyan: Notable events like application error codes.
-- Yellow: Warnings like unusual error codes or problem statements.
-- Red: Problems like malformed packets.
+Wireshark employs a color-coded severity chart to help you quickly identify the significance of events:
+
+- **Blue:** Represents information about regular workflow or expected behavior.
+- **Cyan:** Indicates notable events, such as application error codes or significant protocol events.
+- **Yellow:** Highlights warnings, such as unusual error codes or potential problem statements.
+- **Red:** Signals critical problems, such as malformed packets or severe network issues.
 
 ## Packet Filtering
 
-There are two types of filtering in Wireshark:
-- Capture Filters: Capture only packets valid for the specified filter.
-- Display Filters: Used for viewing packets that match the specified filter.
+Wireshark provides two types of filtering mechanisms:
 
-You can also right-click on an event instead of writing a rule to filter for that type of event.
+- **Capture Filters:** Use capture filters to capture only the packets that meet specific criteria. This is useful for capturing relevant data from a high-volume network traffic stream.
+- **Display Filters:** Display filters allow you to view packets that match specific criteria while analyzing captured data. You can also right-click on an event and apply a quick filter to see packets related to that event.
 
 ## Conversation Filter
 
-Use conversation filters to analyze specific values in packets.
+Conversation filters enable you to focus on specific values or interactions within packets. This is particularly helpful when you want to analyze communication between specific endpoints or with specific attributes.
 
 ## Colorize Conversation
 
-Change color rules for conversations without regard for previous rules.
+Wireshark allows you to customize color rules for conversations, providing flexibility in how you visualize and distinguish different types of network traffic.
 
 ## Follow Stream
 
-Reconstruct the stream and view raw traffic as presented at the application level. This helps analysts recreate application-level data and understand events of interest. Use "Analyze --> Follow TCP/UDP/HTTP Stream" for this purpose.
+To better understand application-level data and analyze events of interest, you can use the "Analyze --> Follow TCP/UDP/HTTP Stream" feature. This function reconstructs the stream and presents raw traffic at the application level, aiding analysts in recreating and comprehending application-level data flow.
