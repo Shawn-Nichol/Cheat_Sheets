@@ -13,30 +13,37 @@ Wireshark's interface consists of several components:
 
 ![Loading PCAP Files](https://github.com/Shawn-Nichol/Tools/assets/30714313/217973a0-c210-454f-b6e1-89bbd9764c9d)
 
-Wireshark provides the following views:
-- **Packet List:** Summary of each packet (source and destination address, protocol, and packet info).
-- **Packet Details Pane:** Detailed protocol breakdown of the selected packet.
-- **Packet Bytes Pane:** Hex and decoded ASCII representation of the selected packet. It highlights the packet field depending on the clicked section in the details pane.
+Wireshark provides multiple views for analyzing network packets:
+
+- **Packet List:** A summary of each packet, including source and destination addresses, protocol, and packet information.
+- **Packet Details Pane:** Offers a detailed breakdown of the selected packet's protocol layers.
+- **Packet Bytes Pane:** Displays the packet's hexadecimal and decoded ASCII representations, highlighting fields when selected in the details pane.
 
 ## Color Coding
 
-Wireshark uses different colors for packets to highlight conditions and protocols, helping you spot anomalies. You can customize these coloring rules.
+Wireshark employs various packet colors to highlight conditions and protocols, assisting in identifying anomalies. You can customize these coloring rules.
 
 ## Traffic Sniffing
 
-You can use the shark button to start network sniffing, the red button to stop sniffing, and the green button to restart the sniffing process. The status bar provides information about the sniffing interface and the number of collected packets.
+Wireshark provides convenient controls for network sniffing:
+
+- The "shark" button initiates network sniffing.
+- The red button stops the sniffing process.
+- The green button restarts the sniffing.
+
+The status bar displays information about the sniffing interface and the number of collected packets.
 
 ![Traffic Sniffing](https://github.com/Shawn-Nichol/Tools/assets/30714313/4892525c-a73b-457e-b5d0-3a567a795a43)
 
-## Merge Files
+## Merging Files
 
-Wireshark can combine two pcap files into one single file using the "File --> Merge" option.
+Wireshark allows you to merge two pcap files into a single file using the "File --> Merge" option.
 
 ## Viewing Packet Details
 
-Wireshark allows you to view packet details, including layers based on the OSI model.
+Wireshark facilitates in-depth analysis of packet details, organized according to the OSI model layers:
 
-- **Layer 1 (Frame):** Details specific to the physical layer of the OSI model.
+- **Layer 1 (Frame):** Specifics pertaining to the physical layer of the OSI model.
 ![Layer 1](https://github.com/Shawn-Nichol/Tools/assets/30714313/8b01405d-7471-4b24-8411-310badf2e106)
 
 - **Layer 2 (Source, MAC):** Source and destination MAC addresses from the Data Link layer.
@@ -48,10 +55,9 @@ Wireshark allows you to view packet details, including layers based on the OSI m
 - **Layer 4 (Protocol):** Details of the protocol used (UDP/TCP) and source and destination ports from the Transport Layer.
 ![Layer 4](https://github.com/Shawn-Nichol/Tools/assets/30714313/1c73af8c-2416-45c9-b6af-e72112a1c770)
 
-- **Layer 5 (Application Protocol):** Details specific to the protocol used, such as HTTP, FTP, and SMB, from the Application layer.
+- **Layer 5 (Application Protocol):** Protocol-specific details, such as HTTP, FTP, and SMB, from the Application layer.
 ![Layer 5](https://github.com/Shawn-Nichol/Tools/assets/30714313/acadbb71-638d-49f7-87b1-45a628b32cb9)
 
 ## Packet Navigation
 
-Wireshark assigns a unique number to each packet, making finding and investigating specific packets easier, especially in large captures.
-
+Wireshark assigns a unique number to each packet, simplifying finding and investigating specific packets, especially in large captures.
