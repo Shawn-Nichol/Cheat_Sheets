@@ -1,4 +1,4 @@
-### ipconfig Command
+### ipconfig
 
 
 <table>
@@ -26,7 +26,7 @@
 </table>
 
 
-### ping Command
+### ping
 
 
 <table>
@@ -49,7 +49,7 @@
 </table>
 
 
-### tracert Command
+### tracert
 
 
 <table>
