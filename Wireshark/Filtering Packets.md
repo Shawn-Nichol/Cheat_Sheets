@@ -1,3 +1,20 @@
+## Filter operartions
+- and - operatr and / &&
+- or - operator: or / ||
+- equals - operator: eq / ==
+- not equal -operator: new / !=
+- greater than - operator: gt / >
+- less than - operator: lt / <
+
+```wireshark
+ip.addr == <IP address>
+ip.src == <SRC IP Address> an d ip.dst == <DST IP Address>
+tcp.port eq <Port #> or <Protocol Name>
+udp.port eq <Port #> or Protocol Name>
+
+
+```
+  
 ## Finding Packets
 
 Wireshark offers several methods to find packets of interest:
