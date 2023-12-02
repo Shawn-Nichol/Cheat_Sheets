@@ -7,3 +7,6 @@ Welcome to my cybersecurity utility belt! Here, you'll discover a comprehensive 
 **Noriben** </br>
 is an open-source Python-based script used for sandboxing and analyzing malware behavior on Windows OS. It is primarily designed to complement tools like Procmon by automating data collection generated during malware execution within a controlled environment. 
 
+
+# Password Cracking
+**hashcat** is an open-source password recovery tool used to crack hashed passwords through brute-force attacks, dictionary attacks, and hybrid attacks. It supports various hashing algorithms and utilizes the power of GPU for accelerated processing. 
