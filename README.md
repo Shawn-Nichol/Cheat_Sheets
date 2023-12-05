@@ -9,15 +9,18 @@ is an open-source Python-based script used for sandboxing and analyzing malware 
 
 
 # Password Cracking
-**hashcat** is an open-source password recovery tool used to crack hashed passwords through brute-force attacks, dictionary attacks, and hybrid attacks. It supports various hashing algorithms and utilizes the power of GPU for accelerated processing. 
+**hashcat** 
+is an open-source password recovery tool used to crack hashed passwords through brute-force attacks, dictionary attacks, and hybrid attacks. It supports various hashing algorithms and utilizes the power of GPU for accelerated processing. 
 
 **fcrackzip**
-
+It is a command-line tool primarily used for cracking passwords of encrypted ZIP files. It performs a brute-force attack or dictionary attack to guess the password protecting the ZIP archive.
 
 # Digital forensics
 **Photorec**
+Photorec is a data recovery software that retrieves lost or deleted files from storage devices like hard drives, memory cards, and USB drives. It identifies file signatures rather than relying on the file system, enabling it to recover various file types even when damaged or corrupted. 
 
 **Steghide**
+is a command-line tool used for hiding or encrypting sensitive data with various types of files, such as images or audio files. It employs steganography techniques to embed secret information into the cover file without visibly altering the file's appearance or functionality. Steghide uses a passphrase for encryption, allowing users to conceal information securely within other files, protecting it from casual observation or unauthorized access. 
 
 **exiftool**
-
+A command-line tool used for reading, writing, and editing metadata information within various types of files, particularly image files such as JPEG, TIFF, RAW, and others. 
