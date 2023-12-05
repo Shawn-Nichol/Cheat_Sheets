@@ -10,3 +10,14 @@ is an open-source Python-based script used for sandboxing and analyzing malware 
 
 # Password Cracking
 **hashcat** is an open-source password recovery tool used to crack hashed passwords through brute-force attacks, dictionary attacks, and hybrid attacks. It supports various hashing algorithms and utilizes the power of GPU for accelerated processing. 
+
+**fcrackzip**
+
+
+# Digital forensics
+**Photorec**
+
+**Steghide**
+
+**exiftool**
+
