@@ -20,12 +20,12 @@ ifconfig or IP show network interfaces and their configurations
 ping: Send ICMP echo request to check network connectivity
 
 # Package Management
-apt Package management tool for install updating and remvoing software packages
+apt Package management tool for installing, updating and removing software packages
 
 # Text Manipulation
 cat: Display  file content
 grep: Search for patterns in files
-Nano, vi, or vim: Text editors to create of modify lines
+Nano, vi, or Vim: Text editors to create or modify lines
 
 # User Permissions
 sudo Execute commands with superuser privileges
@@ -33,6 +33,9 @@ su: Switch to another user account
 chmod Change file permissions
 chown: Change file ownership
 
+# Search system
+Locate
+Whereis
 
 
 
