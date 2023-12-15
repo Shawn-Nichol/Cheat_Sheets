@@ -24,3 +24,10 @@ is a command-line tool used for hiding or encrypting sensitive data with various
 
 **exiftool**
 A command-line tool used for reading, writing, and editing metadata information within various types of files, particularly image files such as JPEG, TIFF, RAW, and others. 
+
+
+# Malware Analysis
+**Gihrad**
+A open-source software suite developed by the NSA, designed for reverse engineering tasks to analyze compiled code across various platforms with disassembling and decompiling capabilities and supports multiple architectures.
+
+A open-source software suite developed by the NSA, designed for reverse engineering tasks, enabling the analysis of compiled code across diverse platforms. With the ability to disassembling and decompile capabilities while supporting multiple architectures
