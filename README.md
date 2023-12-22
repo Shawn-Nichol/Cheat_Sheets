@@ -30,4 +30,9 @@ A command-line tool used for reading, writing, and editing metadata information 
 **Gihrad**
 A open-source software suite developed by the NSA, designed for reverse engineering tasks to analyze compiled code across various platforms with disassembling and decompiling capabilities and supports multiple architectures.
 
-A open-source software suite developed by the NSA, designed for reverse engineering tasks, enabling the analysis of compiled code across diverse platforms. With the ability to disassembling and decompile capabilities while supporting multiple architectures
+A open-source software suite developed by the NSA, designed for reverse engineering tasks, enabling the analysis of compiled code across diverse platforms. With the ability to disassemble and decompile capabilities while supporting multiple architectures
+
+
+# Log Analysis
+**aureport**
+is a tool that produces summary reports of audit system logs. The aureport utility  can also take input from stdin as long as the input is the raw log data. 
